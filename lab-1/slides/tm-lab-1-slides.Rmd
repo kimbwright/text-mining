@@ -105,7 +105,7 @@ What aspects of online professional development offerings do teachers find most 
 library(tidyverse)
 library(knitr)
 
-ts_forum_data <- read_csv("data/opd_survey.csv")
+ts_forum_data <- read_csv("lab-1/slides/data/opd_survey.csv")
 
 ts_forum_data <- slice(ts_forum_data, -1, -2)
 
